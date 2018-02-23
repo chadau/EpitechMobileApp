@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:EpitechMobileApp"
              x:Class="EpitechMobileApp.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
+	<Label Text="ShadAU mdr" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 
