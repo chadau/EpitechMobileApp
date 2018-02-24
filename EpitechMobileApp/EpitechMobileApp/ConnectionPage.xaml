@@ -13,6 +13,7 @@
             <Entry x:Name="Login" Placeholder="example@epitech.eu" Keyboard="Email" TextColor="White"></Entry>
             <Label FontSize="Medium" FontAttributes ="Bold" TextColor="WhiteSmoke" Margin="0,40,0,0">Password</Label>
             <Entry x:Name="Password" IsPassword="True" TextColor="White"></Entry>
+            <Button Text="Sign in"></Button>
             <Image Source="splash.png" Scale="0.2" HorizontalOptions="Center"></Image>
         </StackLayout>
     </ContentPage.Content>
