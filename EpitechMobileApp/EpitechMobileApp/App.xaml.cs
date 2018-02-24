@@ -13,7 +13,7 @@ namespace EpitechMobileApp
 		{
 			InitializeComponent();
 
-			MainPage = new EpitechMobileApp.MainPage();
+			MainPage = new EpitechMobileApp.ConnectionPage();
 		}
 
 		protected override void OnStart ()

@@ -4,8 +4,12 @@
              xmlns:local="clr-namespace:EpitechMobileApp"
              x:Class="EpitechMobileApp.MainPage">
 
-	<Label Text="ShadAU mdr" 
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+    <Label Text="ShadAU mdr" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
+
+        <Button x:Name="Connect" Text="Connexion" Clicked="OnConnect"></Button>
+    </StackLayout>
 
 </ContentPage>
