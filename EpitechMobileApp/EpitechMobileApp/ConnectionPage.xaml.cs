@@ -3,20 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace EpitechMobileApp
 {
-	public partial class MainPage : ContentPage
+	[XamlCompilation(XamlCompilationOptions.Compile)]
+	public partial class ConnectionPage : ContentPage
 	{
-		public MainPage()
+		public ConnectionPage ()
 		{
 			InitializeComponent();
 		}
-
-        void OnConnect(object sender, System.EventArgs e)
-        {
-            Navigation.PushAsync(new ConnectionPage());
-        }
 	}
 }

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EpitechMobileApp.ConnectionPage">
+    <ContentPage.BackgroundColor>
+        <Color>#1565C0</Color>
+    </ContentPage.BackgroundColor>
+
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Padding="50" Orientation="Vertical">
+            <Image x:Name="Logo_epitech" Source="logo_epitech.png" Scale="0.8" HorizontalOptions="Center" Margin="0,0,0,60"></Image>
+            <Label FontSize="Medium" FontAttributes="Bold" TextColor="WhiteSmoke">Login</Label>
+            <Entry x:Name="Login" Placeholder="example@epitech.eu" Keyboard="Email" TextColor="White"></Entry>
+            <Label FontSize="Medium" FontAttributes ="Bold" TextColor="WhiteSmoke" Margin="0,40,0,0">Password</Label>
+            <Entry x:Name="Password" IsPassword="True" TextColor="White"></Entry>
+            <Button Text="Sign in" BackgroundColor="#82B1FF"></Button>
+            <Image Source="splash.png" Scale="0.2" HorizontalOptions="Center"></Image>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
